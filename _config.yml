@@ -1,6 +1,6 @@
 # Site
-# repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -45,85 +45,411 @@ linkedin_username: hnaseri
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-Hello there! 👋 I'm Hossein, a Senior Data Scientist with over 6 years of hands-on experience. 
-I hold a Ph.D. in Medical Physics, and my passion lies in driving Research and Development 
-in the realm of Data Science, particularly within healthcare systems.
+    Hello there! 👋 I'm Hossein, a Senior Data Scientist with over 6 years of hands-on experience. 
+    I hold a Ph.D. in Medical Physics, and my passion lies in driving Research and Development 
+    in the realm of Data Science, particularly within healthcare systems.
 
-**Expertise:**
-- Deep Learning and Machine Learning Models
-- Image and Signal Processing Techniques
-- SQL and Data Pipelines
-- Cloud Programming
-- Machine Learning Operations (ML Ops)
-
-I thrive on transforming complex data into meaningful insights, contributing to advancements 
-in healthcare through innovative data-driven solutions. 
-Let's connect and explore the exciting possibilities at the intersection of data and healthcare!
+    I thrive on transforming complex data into meaningful insights, contributing to advancements 
+    in healthcare through innovative data-driven solutions. 
+    Let's connect and explore the exciting possibilities at the intersection of data and healthcare!
 
 content:
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+
+      - layout: left
+        title: <img src="/images/altin_logo.png" width="300" /> 
+        sub_title: Altin; Data Science for Forex Prediction
+        link: https://github.com/naserih/Altin/
+        link_text: github.com/naserih/Altin
+        quote: >
+          Altin stands as my latest pet project, delving 
+          into the realm of deep learning models for stock price prediction. 
+          Stay tuned for exciting developments and insights on this innovative endeavor.
+          
+        description: | # this will include new lines to allow paragraphs
+          Altin is a project I initiated in Python and PyTorch to implement 
+          advanced deep learning models for Forex trend prediction. 
+          Altin encompasses scripts for fetching both historical and delayed Forex data. 
+          It contains a comprehensive set of data processing tools 
+          to calculate and visualize various market indicators 
+          and oscillators, including resistance and support lines, 
+          candlestick patterns, moving averages, 
+          momentum, and more. 
+          The project also incorporates scripts for loading, 
+          cleaning, and normalizing data, and for implementing PyTorch deep 
+          learning models such as RNN, CNN, LSTM, and transformers. 
+ 
+ 
+      - layout: left
+        title: <img src="/images/nlp_icon.png" width="300" /> 
+        sub_title: AI Tool to Distinguish Between Painful and Painless 
+          Bone Lesions.
+        link: https://github.com/naserih/paINDICATOR/
+        link_text: github.com/naserih/paINDICATOR
+        quote: >
+          This interdisciplinary project aimed to enhance pain assessment in 
+          clinical settings by seamlessly integrating advanced computational 
+          techniques and in-depth medical imaging analysis.
+          
+        description: | # this will include new lines to allow paragraphs
+          As a component of my PhD thesis, this project focused on constructing 
+          a machine learning pipeline for pain detection, 
+          utilizing radiographic images of patients with bone metastasis. 
+          Our pipeline integrates pain scores extracted from clinical notes 
+          using Natural Language Processing (NLP) with radiomic-based imaging 
+          features derived from CT scans of patients with bone metastases. 
+          Using Python, I developed a neural network model to understand the 
+          relationship between perceived pain and the distinct characteristics of 
+          bone metastatic lesions, allowing for the prediction of pain in future patients. 
+          
+      - layout: left
+        title: <img src="/images/hm_pipeline.png" width="300" /> 
+        sub_title: paINDICATOR; AI Pipeline to Identify Metastatic Bone Lesions.
+        link: https://github.com/naserih/paINDICATOR/
+        link_text: github.com/naserih/paINDICATOR
+        quote: >
+          paINDICATOR is a radiomics-based machine learning application with a 
+          primary focus on assisting radiation oncologists in distinguishing between 
+          metastatic and healthy bone lesions, especially in low-quality RT simulation CT images.
+          
+        description: | # this will include new lines to allow paragraphs
+          I developed paINDICATOR as a key component of my PhD project. 
+          Leveraging PyRadiomics for radiomics feature extraction and 
+          scikit-learn for machine learning, paINDICATOR employs advanced 
+          computational techniques to analyze medical images and provide 
+          valuable insights. This tool has demonstrated the feasibility of 
+          automating the identification of metastatic bone lesions within 
+          the treatment planning process, highlighting its potential to 
+          improve efficiency and accuracy in clinical workflows. 
+          
+
+      - layout: left
+        title: <img src="/images/nlp_pipeline.png" width="300" /> 
+        sub_title: TEXTOMICS; NLP Pipeline to 
+          Extract Physician-Reported Pain Scores
+        link: https://github.com/naserih/TEXTOMICS/
+        link_text: github.com/naserih/TEXTOMICS
+        quote: >
+          TEXTOMICS is a Python-based NLP tool designed for extracting 
+          physician-reported pain scores from patients' notes.
+          
+        description: | # this will include new lines to allow paragraphs 
+          I developed TEXTOMICS utilizing the UMLS and METAMAP libraries for 
+          medical semantic extraction. The tool incorporates sets of rules for 
+          negation detection, specifically excluding hypothetical, conditional, 
+          and historical mentions of pain. To ensure its generalizability, 
+          TEXTOMICS has undergone testing on three publicly available datasets, 
+          demonstrating its effectiveness across diverse contexts.
+          
+
+      - layout: left
+        title: <img src="/images/textractor_logo.png" width="300" /> 
+        sub_title: texTRACTOR; Pain Annotating Web Application
+        link: https://github.com/naserih/texTRACTOR/
+        link_text: github.com/naserih/texTRACTOR
+        quote: >
+          texTRACTOR is a web application that enables doctors to thoroughly 
+          review patients' consultation notes and manually annotate pain scores.
+          
+        description: | # this will include new lines to allow paragraphs 
+           developed as part of my PhD project, texTRACTOR is a web application 
+           for manual pain labeling in clinical notes.
+           texTRACTOR is developed using Python FLASK and 
+           includes tools for extracting text data 
+           from Microsoft `.doc` or `.docx` 
+           files. Supporting multiple users working on the same or separate datasets, 
+           texTRACTOR facilitates the evaluation of inner-annotator variability. 
+           This tool serves as a valuable resource for clinicians, 
+           offering a user-friendly platform for precise pain annotation 
+           and analysis within clinical reports.
+
+      - layout: left
+        title: <img src="/images/dicombine_logo.png" width="300" /> 
+        sub_title: diCOMBINE; DICOM Visualization and Annotating Web Application
+        link: https://github.com/naserih/diCOMBINE/
+        link_text: github.com/naserih/diCOMBINE
+        quote: >
+          diCOMBINE is a 3D DICOM visualization and point-annotation web application 
+           designed to aid fast medical imaging labeling.
+          
+        description: | # this will include new lines to allow paragraphs  
+          Developed using Python Flask, diCOMBINE empowers doctors to examine patients' 
+          CT images, precisely pinpoint the locations of bone metastases, 
+          and label the specific type of metastasis. 
+          diCOMBINE offers essential features such as panning, zooming, 
+          and window/level adjustments, ensuring a comprehensive view 
+          of the medical images. With support for multiple users working on 
+          the same or separate datasets, diCOMBINE facilitates collaborative 
+          efforts and enhances the evaluation of inner-annotator variability, 
+          making it a valuable tool for accurate and collaborative 
+          medical image annotation.
+
+
+      - layout: left
+        title: <img src="/images/waterportal_logo.png" width="300" /> 
+        sub_title: WaterPortalApp; Remote Monitoring of Weather Stations
+        link: https://github.com/naserih/WaterPortalApp/
+        link_text: github.com/naserih/WaterPortalApp
+        quote: >
+          WaterPortalApp is a robust web application developed to facilitate the 
+          remote monitoring of research weather stations in the southern Alberta region.
+          
+        description: | # this will include new lines to allow paragraphs  
+          Developed using Python Django and PostgreSQL, WaterPortalApp 
+          fetches data from diverse weather stations, securely stores 
+          the information in a PostgreSQL database, and provides an 
+          intuitive platform for visualizing comprehensive weather data. 
+          The app offers valuable features such as real-time alerts for 
+          station offline status and warnings about potential 
+          hazards associated with various weather conditions. 
+          With its user-friendly interface and powerful capabilities, 
+          WaterPortalApp stands as a reliable and indispensable resource 
+          for researchers engaged in monitoring and analyzing weather patterns.
+
+
+      - layout: left
+        title: <img src="/images/stockastic_logo.png" width="300" /> 
+        sub_title: Stockastatic; Stock Visualization and Analysis Tool
+        link: https://github.com/naserih/stockastic/
+        link_text: github.com/naserih/stockastic
+        quote: >
+          Stockastatic is a real-time stock visualization and analysis tool 
+          designed for stock market enthusiasts.
+          
+        description: | # this will include new lines to allow paragraphs  
+          Developed in Python, Stockastatic offers an intuitive platform 
+          for real-time stock price visualization, predictive analytics, 
+          and advanced signal processing techniques.
+          The tool boasts an automated pipeline that fetches 
+          live data from various APIs and stores in local database. 
+          It also continiously compares current stock trends 
+          with historical data and gain 
+          valuable insights into market behavior. 
+          With a rich set of visualizations and sorting algorithms, 
+          Stockastatic empowers users to efficiently identify fast-moving indices.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        icon: fab fa-github
+        caption: July 2022 - October 2023
+        title: <img src="/images/FarmersEdge.png" width="200" /> 
+        sub_title: Senior Data Scientist
+        link: https://farmersedge.ca/
+        # link_text: FarmersEdge
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            As a data scientist at Farmers Edge, I leveraged innovation 
+            and data-driven solutions in precision agriculture. 
+            Aligned with the company's mission, my goal was to enable end-to-end 
+            farm management and promote sustainable practices within the agriculture 
+            industry to maximize returns.
 
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+            My involvement spanned various projects, 
+            including virtual soil testing, satellite-based crop classification, 
+            automated cloud detection, and yield/harvest time prediction. Additionally, 
+            I played a major role in optimizing data pipelines, contributing 
+            to the seamless integration and analysis of agricultural data.
       - layout: left
-        title: Natural Language Processing 
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        caption: May 2016 - July 2022
+        title: <img src="/images/FarmersEdge.png" alt="Trees" width="200" /> 
+        sub_title: Embedded Software Engineer
+        link: https://farmersedge.ca/
+        # link_text: FarmersEdge
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+            As an Embedded Software Engineer, 
+            I oversaw data flow and conversion for over 250 models of various farming 
+            equipment, including harvesters, planters, and sprayers from manufacturers 
+            like Claas, John Deere, and New Holland.
 
+            My responsibilities included collecting binary data from the machine's 
+            CAN bus terminal, transmitting it to a cloud database via cellular network, 
+            and performing reverse engineering for decoding precision 
+            agriculture attributes such as grain flow, yield, or fertilizer 
+            application rate. Throughout this role, 
+            I gained hands-on experience in vehicle network engineering, 
+            constructing data pipelines, 
+            ensuring data quality, and maintaining databases.
+
+      - layout: left
+        caption: March 2015 - May 2016
+        title: <img src="/images/uleth.png" width="190" /> 
+        sub_title: Software Developer
+        link: https://www.ulethbridge.ca/
+        # link_text: FarmersEdge
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            As a Research Assistant at the University of Lethbridge, 
+            I actively contributed to diverse multidisciplinary
+            projects across multiple departments:
+            * **Physics Department**:
+            Built MATLAB and LabVIEW models for remote sensing spectroscopy.
+            
+            * **Geography Department**:
+            Developed a Water Portal web app for monitoring research-based weather stations.
+            
+            * **Neuroscience Department**:
+            Created an Arduino-based signal processing device for animal research.
+
+            * **Health Science Department**:
+            Developed an AI model to model allostatic load in university students.
+            
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: <img src="/images/mcgill_logo.png" width="190" /> 
+        caption: 2018 - 2023
+        sub_title: Medical Physics (PhD)
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Established in 1821, McGill University stands as a globally 
+          renowned institution, consistently ranked among the world's top 
+          universities for its exceptional academic standards and contributions 
+          across various disciplines.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
+          During my time at Harvard I learnt most of my key skills that have 
+          I have taken through my career such as teamwork and working to tight deadlines. 
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
       - layout: left
-        title: UMA
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: <img src="/images/uleth.png" width="190" /> 
+        caption: 2013 - 2015
+        sub_title: Computational Physics (MSc)
         quote: >
-          Established in 1636, Harvard is the oldest higher education 
-          institution in the United States, and is widely regarded in terms 
-          of its influence, reputation, and academic pedigree as a leading 
-          university in not just the US but also the world.
+          Established in 1821, McGill University stands as a globally 
+          renowned institution, consistently ranked among the world's top 
+          universities for its exceptional academic standards and contributions 
+          across various disciplines.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Harvard I learnt most of my key skills that have 
+          I have taken through my career such as teamwork and working to tight deadlines. 
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+      - layout: left
+        title: <img src="/images/iasbs_logo.png" width="220" /> 
+        sub_title: Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran
+        caption: 2007 - 2010
+        sub_title: Applied Physics (MSc)
+        quote: >
+          Founded in 1991, IASBS is internationally acclaimed for its outstanding 
+          contributions to fundamental sciences, particularly 
+          in theoretical physics, mathematical sciences, and chemistry.
         description: | # this will include new lines to allow paragraphs
           During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        description: |
+          Naseri, H., Skamene, S., Tolba, M., Faye, M.D., Ramia, P., Khriguian, J., 
+          David, M., Kildea, J. *A Scalable Radiomics- and Natural Language Processing-Based Machine Learning 
+          Pipeline to Distinguish Between Painful and Painless Thoracic Spinal Bone 
+          Metastases: Retrospective Algorithm Development and Validation Study*. 
+          JMIR AI 2, e44779 (2023). 
+          doi: <a href="https://doi.org/10.2196/44779" target="_blank">10.2196/44779</a> 
+
+      - layout: left
+        description: |
+          Naseri, H., Skamene, S., Tolba, M., 
+          Faye, M.D., Ramia, P., Khriguian, J., 
+          Patrick, H., 
+          David, M., 
+          Aixa X. Andrade Hernandez, A.X.,
+          Kildea, J.
+          *Radiomics-based machine learning models to distinguish between 
+          metastatic and healthy bone using lesion-center-based geometric 
+          regions of interest*. Sci. Rep. 12, 9866 (2022). 
+          doi: <a href="https://doi.org/10.1038/s41598-022-13379-8" target="_blank">10.1038/s41598-022-13379-8</a> 
+
+      - layout: left
+        description: |
+          Naseri, H., Kafi, K., Skamene, S., Tolba, M., Faye, M.D., Ramia, P., 
+          Khriguian, J., Kildea, J. *Development of a generalizable natural 
+          language processing pipeline to extract physician-reported pain 
+          from clinical reports: Generated using publicly-available 
+          datasets and tested on institutional clinical reports for 
+          cancer patients with bone metastases*. J. Biomed. Inform. 120, 103864 (2021). 
+          doi: <a href="https://doi.org/10.1016/j.jbi.2021.103864" target="_blank">10.1016/j.jbi.2021.103864</a> 
+
+      - layout: left
+        description: |
+          Naseri, H., and Kildea, J., *Feasibility of using Natural Language Processing 
+          to extract cancer pain score from clinical notes*. 
+          Radiother.  Oncol. 139, S65 (2019).  
+          doi: <a href="https://doi.org/10.1016/S0167-8140(19)33206-2" target="_blank">10.1016/S0167-8140(19)33206-2</a> 
+
+      - layout: left
+        description: |
+          Predoi-Cross, A., Esteki, K., Rozario, H., Naseri, H., Latif, S., 
+          Thibault, F., Devi, V.M., Smith, M.A.H., Mantz, A.W., *Theoretical and revisited 
+          experimentally retrieved He-broadened line parameters of 
+          carbon monoxide in the fundamental band*. J. Quantitative 
+          Spectroscopy and Radiative Transfer 184, 322-340 (2016). 
+          doi: <a href="https://doi.org/10.1016/j.jqsrt.2016.08.007" target="_blank">
+          10.1016/j.jqsrt.2016.08.007</a> 
+
+      - layout: left
+        description: |
+          Predoi-Cross, A., Hashemi, R., Devi, V.M., Naseri, H., Smith, M.A.H., 
+          *Analysis of Fourier transform spectra of N2O in the ν3 
+          band for atmospheric composition retrievals*. 
+          Canadian Journal of Physics 96:4, 454-464 (2018). 
+          doi: <a href="https://doi.org/10.1139/cjp-2017-0303" target="_blank">
+          10.1139/cjp-2017-0303</a> 
+
+      - layout: left
+        description: |
+          Hashemi, R., Povey, C., Derksen, M., Naseri, H., Garber J.,  Predoi-Cross, A., 
+          *Doppler broadening thermometry of acetylene and accurate measurement 
+          of the Boltzmann constant*. J. Chemical Physics 141, 214201 (2014).
+          doi: <a href="https://doi.org/10.1063/1.4902076" target="_blank">10.1063/1.4902076</a>  
+
+      - layout: left
+        description: |
+          Seyed-Mahmoud, B., Moradi, A., Kamruzzaman, M., and Naseri, H., 
+          *Effects of density stratification on the frequencies of 
+          the inertial-gravity modes of the Earth's fluid core*. 
+          Geophysical Journal International 202:2, 1146- 1157 (2015).
+          doi: <a href="https://doi.org/10.1093/gji/ggv215" target="_blank">
+          10.1093/gji/ggv215</a>
+
+  - title: Certificates and Trainings # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        description: |
+          * Django and Django RESTful Web Application Development, McGill University, 2021
+          * Fluent Python, Google Career Certificates, 2020
+          * Ethics of Human Subjects Research, CITI Program, 2019
+          * Collaborating and Innovating for Person-Centred Care Montreal, 2018
+          * COMP Student Workshop in Bioinformatics, Montreal, 2018
+          * Machine Learning - Microsoft Video Excerpt, Farmers Edge Uni, 2017
+          * Fundamentals of Machine Learning with Python, udacity, Spring 2017
+          * Machine Learning with Matlab/Octave, Stanford Online, January 2017
+          * Workplace Hazardous Materials (WHMIS), Farmers Edge Uni, May 2016
+          * Backend Development, Farmers Edge University, 2016
+          * Animal Research Ethics, University of Lethbridge, September 2015
+          * Instrumentation with MATLAB, Mathworks tutorials, Summer 2015
+          * Laser Safety Training, University of Lethbridge, September 2015
+          * Radiation Safety Training, University of Lethbridge, September 2015
+          * Spectroscopy and Physics of the planetary atmosphere, June 2015, Fréjus, France
+
+
 
   - title: A Little More About Me
     layout: text
@@ -135,7 +461,7 @@ content:
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
-      ![Trees](/naserih/images/landscape-trees.jpg "Trees")
+      ![Trees](/images/profile.jpg "Trees")
 
 # Footer
 footer_show_references: true
