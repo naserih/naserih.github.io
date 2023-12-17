@@ -231,9 +231,34 @@ content:
           With a rich set of visualizations and sorting algorithms, 
           Stockastatic empowers users to efficiently identify fast-moving indices.
 
+#########################################################################
+########################### Experience ##################################
+#########################################################################
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        icon: fab fa-github
+        caption: January 2019 - May 2022
+        title: <img src="/images/mcgill_logo.png" width="200" /> 
+        sub_title: Teaching Assistant
+        link: https://farmersedge.ca/
+        # link_text: FarmersEdge
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            As a Teaching Assistant at the McGill Medical Physics Unit, 
+            I crafted and delivered the "Python for Medical Physicists" 
+            course—an immersive educational experience designed to instill 
+            Python programming skills tailored for medical physicists. 
+            Aligned with the unit's mission, my objective was to equip 
+            students with essential coding proficiency, covering the spectrum 
+            from the fundamentals of Python syntax to advanced concepts. 
+            I expanded the curriculum to encompass web application design, 
+            database interaction, and the intricate handling of DICOM images, 
+            ensuring students could seamlessly integrate Python into their 
+            medical physics endeavors.
       - layout: left
         icon: fab fa-github
         caption: July 2022 - October 2023
@@ -302,6 +327,10 @@ content:
             * **Health Science Department**:
             Developed an AI model to model allostatic load in university students.
             
+
+##########################################################################
+###########################  Education  ##################################
+##########################################################################
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -433,21 +462,35 @@ content:
     content:
       - layout: left
         description: |
-          * Django and Django RESTful Web Application Development, McGill University, 2021
-          * Fluent Python, Google Career Certificates, 2020
-          * Ethics of Human Subjects Research, CITI Program, 2019
-          * Collaborating and Innovating for Person-Centred Care Montreal, 2018
-          * COMP Student Workshop in Bioinformatics, Montreal, 2018
-          * Machine Learning - Microsoft Video Excerpt, Farmers Edge Uni, 2017
-          * Fundamentals of Machine Learning with Python, udacity, Spring 2017
-          * Machine Learning with Matlab/Octave, Stanford Online, January 2017
-          * Workplace Hazardous Materials (WHMIS), Farmers Edge Uni, May 2016
-          * Backend Development, Farmers Edge University, 2016
-          * Animal Research Ethics, University of Lethbridge, September 2015
-          * Instrumentation with MATLAB, Mathworks tutorials, Summer 2015
-          * Laser Safety Training, University of Lethbridge, September 2015
-          * Radiation Safety Training, University of Lethbridge, September 2015
-          * Spectroscopy and Physics of the planetary atmosphere, June 2015, Fréjus, France
+          --- Django and Django RESTful Web Application Development, McGill University, 2021
+
+          --- Fluent Python, Google Career Certificates, 2020
+
+          --- Ethics of Human Subjects Research, CITI Program, 2019
+
+          --- Collaborating and Innovating for Person-Centred Care Montreal, 2018
+
+          --- COMP Student Workshop in Bioinformatics, Montreal, 2018
+
+          --- Machine Learning - Microsoft Video Excerpt, Farmers Edge Uni, 2017
+
+          --- Fundamentals of Machine Learning with Python, udacity, Spring 2017
+
+          --- Machine Learning with Matlab/Octave, Stanford Online, January 2017
+
+          --- Workplace Hazardous Materials (WHMIS), Farmers Edge Uni, May 2016
+
+          --- Backend Development, Farmers Edge University, 2016
+
+          --- Animal Research Ethics, University of Lethbridge, September 2015
+
+          --- Instrumentation with MATLAB, Mathworks tutorials, Summer 2015
+
+          --- Laser Safety Training, University of Lethbridge, September 2015
+
+          --- Radiation Safety Training, University of Lethbridge, September 2015
+
+          --- Spectroscopy and Physics of the planetary atmosphere, June 2015, Fréjus, France
 
 
 
