@@ -375,7 +375,6 @@ content:
           
           **GPA:** 4.0/4.0 
 
-
       - layout: left
         title: <img src="/images/iasbs_logo.png" width="220"/> 
         sub_title: Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran
@@ -394,6 +393,9 @@ content:
         
           **GPA:** 3.5/4
 
+##########################################################################
+#########################  Publications  #################################
+##########################################################################
 
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
