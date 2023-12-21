@@ -307,7 +307,7 @@ content:
 
       - layout: left
         caption: March 2015 - May 2016
-        title: <img src="/images/uleth.png" width="190" /> 
+        title: <img src="/images/uleth_logo.png" width="190" /> 
         sub_title: Software Developer
         link: https://www.ulethbridge.ca/
         # link_text: FarmersEdge
@@ -358,7 +358,7 @@ content:
 
 
       - layout: left
-        title: <img src="/images/uleth.png" width="190" /> 
+        title: <img src="/images/uleth_logo.png" width="190" /> 
         caption: 2013 - 2015
         sub_title: Computational Physics (M.Sc.)
         quote: >
@@ -377,7 +377,7 @@ content:
 
 
       - layout: left
-        title: <img src="/images/iasbs_logo.png" width="220" /> 
+        title: <img src="/images/iasbs_logo.png" width="200" /> 
         sub_title: Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran
         caption: 2007 - 2010
         sub_title: Applied Physics (M.Sc.)
