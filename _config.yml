@@ -97,7 +97,7 @@ content:
           techniques and in-depth medical imaging analysis.
           
         description: | # this will include new lines to allow paragraphs
-          As a component of my PhD thesis, this project focused on constructing 
+          As a component of my Ph.D. thesis, this project focused on constructing 
           a machine learning pipeline for pain detection, 
           utilizing radiographic images of patients with bone metastasis. 
           Our pipeline integrates pain scores extracted from clinical notes 
@@ -118,7 +118,7 @@ content:
           metastatic and healthy bone lesions, especially in low-quality RT simulation CT images.
           
         description: | # this will include new lines to allow paragraphs
-          I developed paINDICATOR as a key component of my PhD project. 
+          I developed paINDICATOR as a key component of my Ph.D. project. 
           Leveraging PyRadiomics for radiomics feature extraction and 
           scikit-learn for machine learning, paINDICATOR employs advanced 
           computational techniques to analyze medical images and provide 
@@ -157,7 +157,7 @@ content:
           review patients' consultation notes and manually annotate pain scores.
           
         description: | # this will include new lines to allow paragraphs 
-           developed as part of my PhD project, texTRACTOR is a web application 
+           developed as part of my Ph.D. project, texTRACTOR is a web application 
            for manual pain labeling in clinical notes.
            texTRACTOR is developed using Python FLASK and 
            includes tools for extracting text data 
@@ -340,7 +340,7 @@ content:
       - layout: left
         title: <img src="/images/mcgill_logo.png" width="190" /> 
         caption: 2018 - 2023
-        sub_title: Medical Physics (PhD)
+        sub_title: Medical Physics (Ph.D.)
         quote: >
           Established in 1821, McGill University stands as a globally 
           renowned institution, consistently ranked among the world's top 
@@ -360,7 +360,7 @@ content:
       - layout: left
         title: <img src="/images/uleth.png" width="190" /> 
         caption: 2013 - 2015
-        sub_title: Computational Physics (MSc)
+        sub_title: Computational Physics (M.Sc.)
         quote: >
           Founded in 1967, the University of Lethbridge is one of Canada's 
           leading publicly funded comprehensive academic and research institutions.
@@ -380,7 +380,7 @@ content:
         title: <img src="/images/iasbs_logo.png" width="220" /> 
         sub_title: Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran
         caption: 2007 - 2010
-        sub_title: Applied Physics (MSc)
+        sub_title: Applied Physics (M.Sc.)
         quote: >
           Founded in 1991, IASBS is internationally acclaimed for its outstanding 
           contributions to fundamental sciences, particularly 
