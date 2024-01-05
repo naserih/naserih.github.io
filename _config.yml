@@ -385,7 +385,7 @@ content:
           contributions to fundamental sciences, particularly 
           in theoretical physics, mathematical sciences, and chemistry.
         
-        description: | # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragaphs
           **Thesis:** Using soft-lithography for making microfluidics 
           channels and studying fluid diffusion and mixing at microscale.
         
@@ -517,7 +517,7 @@ content:
       - layout: left
         # icon: fab fa-github
         # caption: January 2019 - May 2022
-        title: <img src="/images/mcgill_logo.png" width="200" /> 
+        title: <img src="/images/hossein_naseri_skiing.jpg" width="200" /> 
         sub_title: Teaching Assistant
         link: https://farmersedge.ca/
         # link_text: FarmersEdge
