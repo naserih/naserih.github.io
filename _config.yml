@@ -518,8 +518,8 @@ content:
         # icon: fab fa-github
         # caption: January 2019 - May 2022
         title: <img src="/images/hossein_naseri_skiing.png" width="200" /> 
-        sub_title: Teaching Assistant
-        link: https://farmersedge.ca/
+        # sub_title: Teaching Assistant
+        # link: https://farmersedge.ca/
         # link_text: FarmersEdge
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
