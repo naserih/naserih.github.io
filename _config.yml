@@ -57,6 +57,169 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 
+##########################################################################
+###########################  Education  ##################################
+##########################################################################
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: <img src="/images/mcgill_logo.png" width="190" /> 
+        caption: 2018 - 2023
+        sub_title: Medical Physics (Ph.D.)
+        quote: >
+          Established in 1821, McGill University stands as a globally 
+          renowned institution, consistently ranked among the world's top 
+          universities for its exceptional academic standards and contributions 
+          across various disciplines.
+        description: | # this will include new lines to allow paragraphs  
+          **Thesis:**  The use of radiomics and natural language processing to 
+          detect pain in the simulation-CT images of 
+          patients undergoing radiotherapy for bone metastasis
+          (<a href="https://escholarship.mcgill.ca/concern/theses/tb09jb80h?locale=en" target="_blank">link</a>)
+          
+          **Supervisor:** Dr. John Kildea
+          
+          **GPA:** 3.9/4.0
+
+
+      - layout: left
+        title: <img src="/images/uleth_logo.png" width="190" /> 
+        caption: 2013 - 2015
+        sub_title: Computational Physics (M.Sc.)
+        quote: >
+          Founded in 1967, the University of Lethbridge is one of Canada's 
+          leading publicly funded comprehensive academic and research institutions.
+        description: | # this will include new lines to allow paragraphs
+          **Thesis:** Numerical solutions of the inertial modes of the 
+          earth's fluid core: from the 
+          outstanding problem of the incompressible fluid shell to more 
+          realistic up to date core models
+          (<a href="https://opus.uleth.ca/items/9410e451-5a63-436f-a5af-4a3cfd83bb22" target="_blank">link</a>)
+          
+          **Supervisor:** Dr. Behnam Seyed-Mahmoud
+          
+          **GPA:** 4.0/4.0 
+
+      - layout: left
+        title: <img src="/images/iasbs_logo.png" width="220"/> 
+        sub_title: Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran
+        caption: 2007 - 2010
+        sub_title: Applied Physics (M.Sc.)
+        quote: >
+          Founded in 1991, IASBS is internationally acclaimed for its outstanding 
+          contributions to fundamental sciences, particularly 
+          in theoretical physics, mathematical sciences, and chemistry.
+        
+        description: | # this will include new lines to allow paragaphs
+          **Thesis:** Using soft-lithography for making microfluidics 
+          channels and studying fluid diffusion and mixing at microscale.
+        
+          **Supervisor:** Dr. Mehdi Habibi
+        
+          **GPA:** 3.5/4
+
+#########################################################################
+########################### Experience ##################################
+#########################################################################
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        # icon: fab fa-github
+        caption: January 2019 - May 2022
+        title: <img src="/images/mcgill_logo.png" width="200" /> 
+        sub_title: Teaching Assistant
+        link: https://farmersedge.ca/
+        # link_text: FarmersEdge
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            As a Teaching Assistant at the McGill Medical Physics Unit, 
+            I crafted and delivered the "Python for Medical Physicists" 
+            course—an immersive educational experience designed to instill 
+            Python programming skills tailored for medical physicists. 
+            Aligned with the unit's mission, my objective was to equip 
+            students with essential coding proficiency, covering the spectrum 
+            from the fundamentals of Python syntax to advanced concepts. 
+            I expanded the curriculum to encompass web application design, 
+            database interaction, and the intricate handling of DICOM images, 
+            ensuring students could seamlessly integrate Python into their 
+            medical physics endeavors.
+      - layout: left
+        # icon: fab fa-github
+        caption: July 2022 - October 2023
+        title: <img src="/images/FarmersEdge.png" width="200" /> 
+        sub_title: Senior Data Scientist
+        link: https://farmersedge.ca/
+        # link_text: FarmersEdge
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            As a data scientist at Farmers Edge, I leveraged innovation 
+            and data-driven solutions in precision agriculture. 
+            Aligned with the company's mission, my goal was to enable end-to-end 
+            farm management and promote sustainable practices within the agriculture 
+            industry to maximize returns.
+
+            My involvement spanned various projects, 
+            including virtual soil testing, satellite-based crop classification, 
+            automated cloud detection, and yield/harvest time prediction. Additionally, 
+            I played a major role in optimizing data pipelines, contributing 
+            to the seamless integration and analysis of agricultural data.
+      - layout: left
+        caption: May 2016 - July 2022
+        title: <img src="/images/FarmersEdge.png" alt="Trees" width="200" /> 
+        sub_title: Embedded Software Engineer
+        link: https://farmersedge.ca/
+        # link_text: FarmersEdge
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            As an Embedded Software Engineer, 
+            I oversaw data flow and conversion for over 250 models of various farming 
+            equipment, including harvesters, planters, and sprayers from manufacturers 
+            like Claas, John Deere, and New Holland.
+
+            My responsibilities included collecting binary data from the machine's 
+            CAN bus terminal, transmitting it to a cloud database via cellular network, 
+            and performing reverse engineering for decoding precision 
+            agriculture attributes such as grain flow, yield, or fertilizer 
+            application rate. Throughout this role, 
+            I gained hands-on experience in vehicle network engineering, 
+            constructing data pipelines, 
+            ensuring data quality, and maintaining databases.
+
+      - layout: left
+        caption: March 2015 - May 2016
+        title: <img src="/images/uleth_logo.png" width="190" /> 
+        sub_title: Software Developer
+        link: https://www.ulethbridge.ca/
+        # link_text: FarmersEdge
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            As a Research Assistant at the University of Lethbridge, 
+            I actively contributed to diverse multidisciplinary
+            projects across multiple departments:
+            * **Physics Department**:
+            Built MATLAB and LabVIEW models for remote sensing spectroscopy.
+            
+            * **Geography Department**:
+            Developed a Water Portal web app for monitoring research-based weather stations.
+            
+            * **Neuroscience Department**:
+            Created an Arduino-based signal processing device for animal research.
+
+            * **Health Science Department**:
+            Developed an AI model to model allostatic load in university students.
+            
+
+###########################################################
+####################### PROJECTS ##########################
+###########################################################
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -232,166 +395,6 @@ content:
           valuable insights into market behavior. 
           With a rich set of visualizations and sorting algorithms, 
           Stockastatic empowers users to efficiently identify fast-moving indices.
-
-#########################################################################
-########################### Experience ##################################
-#########################################################################
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        # icon: fab fa-github
-        caption: January 2019 - May 2022
-        title: <img src="/images/mcgill_logo.png" width="200" /> 
-        sub_title: Teaching Assistant
-        link: https://farmersedge.ca/
-        # link_text: FarmersEdge
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            As a Teaching Assistant at the McGill Medical Physics Unit, 
-            I crafted and delivered the "Python for Medical Physicists" 
-            course—an immersive educational experience designed to instill 
-            Python programming skills tailored for medical physicists. 
-            Aligned with the unit's mission, my objective was to equip 
-            students with essential coding proficiency, covering the spectrum 
-            from the fundamentals of Python syntax to advanced concepts. 
-            I expanded the curriculum to encompass web application design, 
-            database interaction, and the intricate handling of DICOM images, 
-            ensuring students could seamlessly integrate Python into their 
-            medical physics endeavors.
-      - layout: left
-        # icon: fab fa-github
-        caption: July 2022 - October 2023
-        title: <img src="/images/FarmersEdge.png" width="200" /> 
-        sub_title: Senior Data Scientist
-        link: https://farmersedge.ca/
-        # link_text: FarmersEdge
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            As a data scientist at Farmers Edge, I leveraged innovation 
-            and data-driven solutions in precision agriculture. 
-            Aligned with the company's mission, my goal was to enable end-to-end 
-            farm management and promote sustainable practices within the agriculture 
-            industry to maximize returns.
-
-            My involvement spanned various projects, 
-            including virtual soil testing, satellite-based crop classification, 
-            automated cloud detection, and yield/harvest time prediction. Additionally, 
-            I played a major role in optimizing data pipelines, contributing 
-            to the seamless integration and analysis of agricultural data.
-      - layout: left
-        caption: May 2016 - July 2022
-        title: <img src="/images/FarmersEdge.png" alt="Trees" width="200" /> 
-        sub_title: Embedded Software Engineer
-        link: https://farmersedge.ca/
-        # link_text: FarmersEdge
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            As an Embedded Software Engineer, 
-            I oversaw data flow and conversion for over 250 models of various farming 
-            equipment, including harvesters, planters, and sprayers from manufacturers 
-            like Claas, John Deere, and New Holland.
-
-            My responsibilities included collecting binary data from the machine's 
-            CAN bus terminal, transmitting it to a cloud database via cellular network, 
-            and performing reverse engineering for decoding precision 
-            agriculture attributes such as grain flow, yield, or fertilizer 
-            application rate. Throughout this role, 
-            I gained hands-on experience in vehicle network engineering, 
-            constructing data pipelines, 
-            ensuring data quality, and maintaining databases.
-
-      - layout: left
-        caption: March 2015 - May 2016
-        title: <img src="/images/uleth_logo.png" width="190" /> 
-        sub_title: Software Developer
-        link: https://www.ulethbridge.ca/
-        # link_text: FarmersEdge
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            As a Research Assistant at the University of Lethbridge, 
-            I actively contributed to diverse multidisciplinary
-            projects across multiple departments:
-            * **Physics Department**:
-            Built MATLAB and LabVIEW models for remote sensing spectroscopy.
-            
-            * **Geography Department**:
-            Developed a Water Portal web app for monitoring research-based weather stations.
-            
-            * **Neuroscience Department**:
-            Created an Arduino-based signal processing device for animal research.
-
-            * **Health Science Department**:
-            Developed an AI model to model allostatic load in university students.
-            
-
-##########################################################################
-###########################  Education  ##################################
-##########################################################################
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: <img src="/images/mcgill_logo.png" width="190" /> 
-        caption: 2018 - 2023
-        sub_title: Medical Physics (Ph.D.)
-        quote: >
-          Established in 1821, McGill University stands as a globally 
-          renowned institution, consistently ranked among the world's top 
-          universities for its exceptional academic standards and contributions 
-          across various disciplines.
-        description: | # this will include new lines to allow paragraphs  
-          **Thesis:**  The use of radiomics and natural language processing to 
-          detect pain in the simulation-CT images of 
-          patients undergoing radiotherapy for bone metastasis
-          (<a href="https://escholarship.mcgill.ca/concern/theses/tb09jb80h?locale=en" target="_blank">link</a>)
-          
-          **Supervisor:** Dr. John Kildea
-          
-          **GPA:** 3.9/4.0
-
-
-      - layout: left
-        title: <img src="/images/uleth_logo.png" width="190" /> 
-        caption: 2013 - 2015
-        sub_title: Computational Physics (M.Sc.)
-        quote: >
-          Founded in 1967, the University of Lethbridge is one of Canada's 
-          leading publicly funded comprehensive academic and research institutions.
-        description: | # this will include new lines to allow paragraphs
-          **Thesis:** Numerical solutions of the inertial modes of the 
-          earth's fluid core: from the 
-          outstanding problem of the incompressible fluid shell to more 
-          realistic up to date core models
-          (<a href="https://opus.uleth.ca/items/9410e451-5a63-436f-a5af-4a3cfd83bb22" target="_blank">link</a>)
-          
-          **Supervisor:** Dr. Behnam Seyed-Mahmoud
-          
-          **GPA:** 4.0/4.0 
-
-      - layout: left
-        title: <img src="/images/iasbs_logo.png" width="220"/> 
-        sub_title: Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran
-        caption: 2007 - 2010
-        sub_title: Applied Physics (M.Sc.)
-        quote: >
-          Founded in 1991, IASBS is internationally acclaimed for its outstanding 
-          contributions to fundamental sciences, particularly 
-          in theoretical physics, mathematical sciences, and chemistry.
-        
-        description: | # this will include new lines to allow paragaphs
-          **Thesis:** Using soft-lithography for making microfluidics 
-          channels and studying fluid diffusion and mixing at microscale.
-        
-          **Supervisor:** Dr. Mehdi Habibi
-        
-          **GPA:** 3.5/4
 
 ##########################################################################
 #########################  Publications  #################################
